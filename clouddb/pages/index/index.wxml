@@ -1,0 +1,24 @@
+<view class="header">
+  <image src="./img/addMore.svg" class="btn-image" bindtap="bindViewTap"></image>
+  <image src="./img/query.svg" class="btn-image" bindtap="query"></image>
+  <image src="./img/mine.svg" class="img_user" bindtap="login"></image>
+</view>
+
+<view class="table">
+  <view class="tr">
+    <view class="th">id</view>
+    <view class="th">bookName</view>
+    <view class="th-ope">operate</view>
+  </view>
+  <view wx:for="{{listArr}}" wx:key="id">
+    <view class="tr">
+      <view class="td">{{item.id}}</view>
+      <view class="td">{{item.bookName}}</view>
+      <view class="td-ope">
+        <view class="btn-text" bindtap="view" data-value="{{item}}">view</view>
+        <view class="btn-text" bindtap="modify" data-value="{{item}}">modify</view>
+        <view class="btn-text-last" bindtap="del" data-id="{{item.id}}">del</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,28 @@
+<view style="text-align: center;">Query Data</view>
+<view style="display: flex;">
+    <view class='item'>
+        <view class="item-title">bookName:</view>
+        <view class="item-title">author: </view>
+        <view class="item-title">price: </view>
+        <view class="item-title">publisher: </view>
+        <view class="item-title">publishTime: </view>
+        
+    </view>
+    <view class='item'>
+        <input type="text" class="item-input" value="{{bookName}}"  placeholder="please enter bookName" bindinput="setBookName"></input>
+        <input type="text" class="item-input" value="{{author}}" placeholder="please enter author" bindinput="setAuthor"></input>
+        <view style="display: flex;">
+            <input type="text" class="price-left-input" value="{{minPrice}}" placeholder="min price" bindinput="setMinPrice"></input>
+            <view class="text-style">-</view>
+            <input type="text" class="price-right-input" value="{{maxPrice}}" placeholder="max price" bindinput="setMaxPrice"></input>
+        </view>
+        <input type="text" class="item-input" value="{{publisher}}" placeholder="please enter publisher" bindinput="setPublisher"></input>
+        <input type="text" class="item-input" value="{{publishTime}}" placeholder="please enter publishTime"
+        bindinput="setPublishTime"></input>
+    </view>
+</view>
+
+<view style="display: flex;">
+    <button style = "width: 100px;" class="button-style" bindtap="query">query</button>
+    <button style = "width: 100px;" class="button-style" bindtap="clearQuery">clear</button>
+</view>

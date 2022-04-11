@@ -1,0 +1,55 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+
+.item {
+  margin-top: 10px;
+}
+
+.item-title {
+  margin-left: 30px;
+  margin-top: 23px;
+}
+
+.item-input {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 240px;
+}
+
+.button-style {
+  font-size: 10px;
+  margin-top: 50px;
+  margin-left: 5px;
+  padding-left: 15px;
+  color: white;
+  background-color: #22a1fa;
+}
+
+.text-style{
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.price-left-input {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 110px;
+}
+
+.price-right-input {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 20px;
+  width: 110px;
+}

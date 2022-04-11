@@ -1,0 +1,21 @@
+<view style="text-align: center;">Add Data</view>
+<view style="display: flex;">
+    <view class='item'>
+        <view class="item-title">id:</view>
+        <view class="item-title">bookName:</view>
+        <view class="item-title">author: </view>
+        <view class="item-title">price: </view>
+        <view class="item-title">publisher: </view>
+        <view class="item-title">publishTime: </view>
+    </view>
+    <view class='item'>
+        <input type="number" class="item-input" bindinput="setId"></input>
+        <input type="text" class="item-input" bindinput="setBookName"></input>
+        <input type="text" class="item-input" bindinput="setAuthor"></input>
+        <input type="digit" class="item-input" bindinput="setPrice"></input>
+        <input type="text" class="item-input" bindinput="setPublisher"></input>
+        <input type="text" class="item-input" bindinput="setPublishTime" placeholder="format: xxxx-xx-xx"></input>
+    </view>
+</view>
+
+<button style = "width: 100px;" class="button-style" bindtap="submit">submit</button>

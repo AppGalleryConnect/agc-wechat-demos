@@ -1,0 +1,19 @@
+<view style="text-align: center;">View Data</view>
+<view style="display: flex;">
+    <view class='item'>
+        <view class="item-title">id:</view>
+        <view class="item-title">bookName:</view>
+        <view class="item-title">author: </view>
+        <view class="item-title">price: </view>
+        <view class="item-title">publisher: </view>
+        <view class="item-title">publishTime: </view>
+    </view>
+    <view class='item'>
+        <input type="text" class="item-input" value="{{id}}" disabled="true"></input>
+        <input type="text" class="item-input" value="{{bookName}}" disabled="true"></input>
+        <input type="text" class="item-input" value="{{author}}" disabled="true"></input>
+        <input type="text" class="item-input" value="{{price}}" disabled="true"></input>
+        <input type="text" class="item-input" value="{{publisher}}" disabled="true"></input>
+        <input type="text" class="item-input" value="{{publishTime}}" disabled="true"></input>
+    </view>
+</view>
