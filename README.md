@@ -13,12 +13,13 @@ These are the available plugins in this repository.
 
 | Demo | Version | Documentation |
 |--------|-----|-----|
-| [auth](./auth) | [![version](https://img.shields.io/badge/Release-1.4.1-yellow)](./auth) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-auth-miniprogram-getstarted-0000001159252959) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/agc-auth-service-webapi-overview-0000001054343230) |
-| [cloudfunction](./cloudfunction) | [![version](https://img.shields.io/badge/Release-1.3.1-yellow)](./cloudfunction) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-cloudfunction-functioncall-miniprogram-0000001160948419) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/overview-web-0000001059879805) |
-| [remoteconfig](./remoteconfig) | [![version](https://img.shields.io/badge/Release-1.4.1-yellow)](./remoteconfig) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-miniprogram-getstarted-0000001194308625) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/android-remoteconfig-overview-0000001055692839) |
+| [auth](./auth) | [![version](https://img.shields.io/badge/Release-1.4.1-yellow)](./auth) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-auth-introduction-0000001053732605) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/agc-auth-service-webapi-overview-0000001054343230) |
+| [clouddb](./clouddb) | [![version](https://img.shields.io/badge/Release-1.3.3-yellow)](./clouddb) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-clouddb-introduction-0000001054212760) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/clouddb-miniprogram-overview-0000001199274806) |
+| [cloudfunction](./cloudfunction) | [![version](https://img.shields.io/badge/Release-1.3.1-yellow)](./cloudfunction) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-cloudfunction-introduction-0000001059279544) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/overview-web-0000001059879805) |
+| [remoteconfig](./remoteconfig) | [![version](https://img.shields.io/badge/Release-1.4.1-yellow)](./remoteconfig) | [Getting Started](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-Guides/agc-remoteconfig-introduction-0000001055149778) <br/> [API Reference](https://developer.huawei.com/consumer/cn/doc/development/AppGallery-connect-References/web-remoteconfig-overview-0000001057829368) |
 
 ## Precautions
-The agc-wechatminiprogram-demos project contains 3 independent projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
+The agc-wechatminiprogram-demos project contains 4 independent projects. After downloading the code, you can load different nested projects to the IDE as required. And you can run each project independently.
 
 ## Question or issues
 If you have questions about how to use AppGallery Connect Demos, try the following options:  
