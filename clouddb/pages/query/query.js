@@ -16,7 +16,7 @@
 
 import common from '../common/common';
 import { BookInfo } from '../model/BookInfo';
-import { CloudDBZoneQuery } from '@agconnect/database';
+import { CloudDBZoneQuery } from '@hw-agconnect/database';
 
 Page({
   data: {

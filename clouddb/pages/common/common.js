@@ -18,8 +18,8 @@
 import { default as schema } from '../config/app-schema';
 import { default as context } from '../config/agconnect-services';
 import { BookInfo } from '../model/BookInfo';
-import { AGConnectCloudDB, CloudDBZoneQuery, CloudDBZoneConfig } from '@agconnect/database';
-import agconnect from '@agconnect/api';
+import { AGConnectCloudDB, CloudDBZoneQuery, CloudDBZoneConfig } from '@hw-agconnect/database';
+import agconnect from '@hw-agconnect/api';
 let cloudDB;
 let zone;
 let isOpenCloudDB = false;
